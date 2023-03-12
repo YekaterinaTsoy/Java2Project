@@ -55,7 +55,7 @@ public class AllPersonController {
     @FXML
     private TextField searchField;
     
-    // Refresh the table with contacts and clear selection
+    // Refresh the table with persons and clear selection
     @FXML
     public void refreshPersonTable(){
         // Contact table refresh
@@ -64,7 +64,7 @@ public class AllPersonController {
 
     }
 
-    // Populate list with contacts inside the database
+    // Populate list with persons inside the database
     @FXML
     public void populatePersonTable(){
     	personTable.setItems(FXCollections.observableArrayList(PersonDao.listPersons()));
