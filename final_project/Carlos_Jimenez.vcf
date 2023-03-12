@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:4.0
+N:Jimenez;Carlos;;;
+NICKNAME:carlo
+FN:Carlos Jimenez
+TEL;TYPE=cell:65059
+ADR;TYPE=home:;;117 rue de conde
+EMAIL:carlos@gmail.com
+BDAY:1998-07-15
+END:VCARD
